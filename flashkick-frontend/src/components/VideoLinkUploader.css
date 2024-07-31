@@ -1,0 +1,40 @@
+.link-container {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 40%;
+  height: 180px;
+  max-width: 600px;
+  background-color: #e0e7ff;
+  text-align: center;
+}
+
+.link-container input {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.link-container button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.link-container button:hover {
+  background-color: rgb(193, 193, 72);
+  transform: scale(1.05);
+}
+
+.link-container button:active {
+  background-color: #3dcd19;
+  transform: scale(1);
+}

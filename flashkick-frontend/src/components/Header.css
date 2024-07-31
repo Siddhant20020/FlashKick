@@ -1,0 +1,94 @@
+header {
+  background-color: #c0c3b8;
+  color: red;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  height: 7%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 70px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #141212;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 25px;
+}
+
+nav a:hover {
+  color: red;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: rgb(49, 49, 240);
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    background-color: #333;
+    padding: 20px;
+  }
+
+  .mobile-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .mobile-nav ul li {
+    margin-bottom: 10px;
+  }
+
+  .mobile-nav ul li a {
+    color: rgb(63, 63, 248);
+    text-decoration: none;
+    font-size: 18px;
+  }
+}
