@@ -1,7 +1,11 @@
 from flask import Flask
-from routes import main  # Importing from routes directly
+from routes import main
 from flask_cors import CORS
 import os
+import logging
+
+# Configurinh logging
+logging.basicConfig(level=logging.DEBUG)
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads/'
