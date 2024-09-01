@@ -1,5 +1,5 @@
 from flask import Flask
-from routes import main
+from .routes import main
 from flask_cors import CORS
 import os
 import logging

@@ -3,7 +3,7 @@ from werkzeug.utils import secure_filename
 import os
 import io
 import requests
-from highlight_generator import generate_highlights
+from .highlight_generator import generate_highlights
 import logging
 
 main = Blueprint('main', __name__)
