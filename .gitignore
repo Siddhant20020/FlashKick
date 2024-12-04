@@ -2,3 +2,5 @@ node_module
 keyframes
 frames
 raw_videos
+venv
+.venv
